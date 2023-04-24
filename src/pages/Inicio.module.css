@@ -1,0 +1,41 @@
+.inicio {
+  height: 100vh;
+  padding-left: 35%;
+}
+
+.divInicio {
+  position: absolute;
+  top: 0;
+  left: 20%;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 15% 15px;
+  line-height: 25px;
+}
+
+.inicio h1 {
+  font-size: 70px;
+}
+
+.inicio p {
+  font-size: 40px;
+}
+
+#minhaFoto {
+  position: absolute;
+  width: 50%;
+  left: 57%;
+  top: 15%;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+#minhaFoto:hover {
+  transform: scale(1.1);
+}
+
+#minhaFoto:active {
+  pointer-events: none;
+}

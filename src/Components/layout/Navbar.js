@@ -11,10 +11,10 @@ function Navbar() {
           <li className={styles.itemCabecalho}>
             <HashLink
               smooth
-              to="/#competencias"
+              to="/#contato"
               className={styles.hover_underline_animation}
             >
-              Competências
+              Contato
             </HashLink>
           </li>
           <li className={styles.itemCabecalho}>
@@ -24,6 +24,15 @@ function Navbar() {
               className={styles.hover_underline_animation}
             >
               Projetos
+            </HashLink>
+          </li>
+          <li className={styles.itemCabecalho}>
+            <HashLink
+              smooth
+              to="/#linguagens"
+              className={styles.hover_underline_animation}
+            >
+              Linguagens
             </HashLink>
           </li>
           <li className={styles.itemCabecalho}>
